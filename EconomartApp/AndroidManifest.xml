@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.embedded.economart"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />    
+      
+       <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application android:icon="@drawable/gcart" android:label="@string/app_name">
+        <activity android:name=".Splash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".economart" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait" ></activity>
+		<activity android:name=".PostQuery" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".ViewQuery" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".ViewResponse" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".ViewMyQueries" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".ViewMyResponses" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".Deals" android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		
+				
+    </application>
+</manifest>

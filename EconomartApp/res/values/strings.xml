@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, economart!</string>
+    <string name="app_name">Economart</string>
+    <string name="post_query">Ask!</string>
+    <string name="back">Back</string>
+    <string name="view">View or Answer!</string>
+    
+    <string name="response">Respond</string>
+    <!--  Spinner code  -->
+    <string name="choose">Choose a product from the following list:</string>
+    
+    <string-array name="products_array">
+    	<item>Choose a product</item>
+        <item>Onions</item>
+        <item>Potatoes</item>
+        <item>Tomatoes</item>
+        <item>Cucumber</item>
+        <item>Jalapenos</item>
+        <item>Bell Peppers</item>
+        <item>Cabbage</item>
+        <item>Spring Onions</item>
+        <item>Garlic</item>
+        
+    </string-array>
+        <string name="qty">Quantity (in Lbs):</string>
+        <string name="loc">Your Store:</string>
+        <string name="resp">Responses:</string>
+        <string name="myqueries">What have I asked?</string>
+        <string name="emptysetresp"> </string>
+        <string name="emptysetqueries"> </string>
+        <string name="emptysetdeals"> </string>
+        <string name="emptysetmyqueries"> </string>
+        <string name="prod">Product</string>
+        <string name="price">Price(in $):</string>
+        <string name="deals">Hot Deals So Far:</string>
+        <string name="d">Hot Deals!!</string>
+        <string name="postdeals">Post Deals:</string>
+        <string name="store">Store:</string>        
+        <string name="splash_screen">SplashScreen</string>        
+        <string name="Introduction">Hey! Welcome to Economart, your one-stop shop for getting the best deals on groceries and more! You can ask the prices of your favorite items to other app users in your area to help you make informed decisions on your purchase. You can also help other users by responding to their queries. As an added feature, you can also view and post some of the hottest deals around. We hope you have a great time using this app!! Enjoy</string>
+        <string name="pleaserespond">Click on a query to view its responses!</string>
+    
+</resources>

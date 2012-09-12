@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/economartbground">
+    
+   <ImageView 
+   android:id="@+id/test_image"
+   android:src="@drawable/economartlogo"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   />
+   
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayouttop">
+       <Button android:background="@drawable/custombutton" android:text="@string/post_query" android:id="@+id/postquery" android:layout_height="wrap_content" android:layout_width="200px" android:layout_marginTop="30sp" android:layout_marginLeft="100sp" android:textStyle="bold"></Button>
+   </RelativeLayout>
+   
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayouttop">
+	   <Button android:background="@drawable/custombutton" android:text="@string/view" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="200px" android:layout_below="@+id/postquery" android:layout_marginLeft="100sp" android:textStyle="bold" android:layout_marginTop="10sp"></Button>   
+   </RelativeLayout>
+   
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayouttop">
+   	   <Button android:background="@drawable/custombutton" android:id="@+id/myqueries" android:layout_height="wrap_content" android:layout_width="200px" android:text="@string/myqueries" android:layout_alignParentTop="true" android:layout_marginLeft="100sp" android:textStyle="bold" android:layout_marginTop="10sp"></Button>
+   </RelativeLayout>
+   
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/relativeLayouttop">
+       <Button android:background="@drawable/custombutton" android:layout_height="wrap_content" android:id="@+id/dealsbutton" android:layout_width="200px" android:text="@string/d" android:layout_marginLeft="100sp" android:textStyle="bold" android:layout_marginTop="10sp"></Button>
+   </RelativeLayout>
+   
+   
+   
+</LinearLayout>

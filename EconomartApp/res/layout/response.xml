@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+
+<RelativeLayout android:id="@+id/relativeLayouttopnew" android:layout_width="match_parent" android:layout_height="wrap_content">
+   <TextView android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content" android:capitalize="characters" android:text="TextView" android:gravity="center|center_horizontal" android:id="@+id/prodname"></TextView>      
+</RelativeLayout>
+   
+   <RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+       <TextView android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/textView1" android:layout_marginRight="10dip" android:layout_alignParentTop="true"></TextView>
+       <EditText android:maxWidth="50px" android:layout_height="60px" android:id="@+id/widget27" android:textSize="18sp" android:text="" android:layout_marginLeft="140dip" android:layout_marginRight="10dip" android:inputType="numberDecimal" android:layout_width="wrap_content"></EditText>
+   </RelativeLayout>
+   
+   <RelativeLayout android:id="@+id/relativeLayout3" android:layout_width="match_parent" android:layout_height="wrap_content">
+       <TextView android:textStyle="bold" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_marginRight="10dip" android:text="@string/qty"></TextView>
+       <EditText android:maxWidth="50px" android:layout_height="60px" android:layout_width="wrap_content" android:id="@+id/widget29" android:textSize="18sp" android:text="" android:layout_marginLeft="140dip" android:layout_marginRight="20dip" android:inputType="numberDecimal"></EditText>      
+       
+   </RelativeLayout>
+   
+   <RelativeLayout android:id="@+id/relativeLayout4" android:layout_width="match_parent" android:layout_height="wrap_content">
+       <TextView android:textStyle="bold" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_marginRight="10dip" android:text="@string/loc"></TextView>
+       <EditText android:maxWidth="50px" android:layout_height="60px" android:id="@+id/widget30" android:textSize="18sp" android:text="" android:layout_marginLeft="140dip" android:layout_marginRight="20dip" android:inputType="text" android:layout_width="wrap_content"></EditText>
+       <Button android:id="@+id/response" android:text="@string/response" android:layout_height="60px" android:layout_width="120px" android:layout_marginLeft="70dip" android:layout_alignParentRight="true"></Button>      
+       
+   </RelativeLayout>
+      
+      
+      
+   <RelativeLayout android:id="@+id/relativeLayoutbottomnew" android:layout_width="match_parent" android:layout_height="wrap_content">
+   <TextView android:textStyle="bold" android:textSize="25sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center|center_horizontal" android:id="@+id/response" android:text="@string/resp"></TextView>
+   </RelativeLayout>
+   
+
+    <ListView android:id="@android:id/list" 
+   			android:layout_height="wrap_content" 
+   			 android:layout_width="match_parent"
+   			 android:textColor="#36648B">
+   </ListView>
+   
+   <TextView android:id="@android:id/empty"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" android:text="@string/emptysetresp"/>
+    
+    </LinearLayout>
